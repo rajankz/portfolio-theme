@@ -1,11 +1,12 @@
 ---
-title: Dreams
+title: AAST Website
 subtitle: Website Design
 layout: default
 modal-id: 1
+link: aast-website
 date: 2014-07-18
 img: dreams.png
-thumbnail: dreams-thumbnail.png
+thumbnail: aast-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
