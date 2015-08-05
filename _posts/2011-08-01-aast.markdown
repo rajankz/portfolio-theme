@@ -1,11 +1,12 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: AAST Website
+subtitle: Website (Design + Code)
 layout: default
-modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+modal-id: 1
+link: aast-website
+date: 2014-07-18
+img: dreams.png
+thumbnail: aast-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

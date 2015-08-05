@@ -1,6 +1,6 @@
 ---
 title: Campus Connection
-subtitle: Wireframe, Webdesign
+subtitle: Wireframe + Webdesign
 layout: default
 link-name:
 modal-id: 6
