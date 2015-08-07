@@ -292,56 +292,10 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-/*    background-image: url(../img/header-bg.png);*/
-    background-color: rgba(0, 0, 0, 0);
-/*    background-color: #222;*/
+    opacity: 0.9;
+    background: url(../img/header-bg.png) repeat , radial-gradient(ellipse at center, rgb(0, 0, 0) 0%, rgb(16, 16, 16) 100%);
     background-clip: border-box;
-    background-image: linear-gradient(to right, rgb(34,34,34) 0%, rgb(68,68,68) 100%);
-    
-/*    background-image: url(../img/header-bg.png);*/
-/*    background-position: center center;*/
-/*    background-repeat: none;*/
-/*    background-repeat: repeat;*/
-/*
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-*/
-}
-
-header .front{
-    background: url(../img/header-bg.png) repeat;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-header::after{
-/*
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-*/
-/*
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-*/
-    background-color: rgba(0, 0, 0, 0);
-/*    background-image: url(../img/header-bg.png);*/
-/*    background-repeat: repeat;*/
-    background-image: linear-gradient(to right, rgb(34,34,34) 0%, rgb(68,68,68) 100%);
-/*    background-color: rgba(250, 250, 250, 0.5);*/
-/*
-    filter: blur(15px);
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-*/
+    z-index: -1;
 }
 
 header .intro-text {
@@ -524,6 +478,18 @@ section h3.section-subheading {
     background-color: #f1f1f1;
 }
 
+.timeline-last:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: white;
+}
+
+
 .timeline>li {
     position: relative;
     margin-bottom: 50px;
@@ -623,10 +589,16 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 @media(min-width:768px) {
     .timeline:before {
+        left: 50%;
+    }
+    
+    .timeline-last:before {
         left: 50%;
     }
 
@@ -891,7 +863,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
+    position: fixed;
     top: 25px;
     right: 25px;
     width: 75px;
@@ -924,6 +896,14 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+/*
+.portfolio-modal .close-modal:hover .lr, .portfolio-modal .close-modal:hover .lr .rl {
+    background-color: #{{ site.color.primary }};
+    opacity: 1;
+    width: 2px;
+}
+*/
 
 ::-moz-selection {
     text-shadow: none;

@@ -1,9 +1,9 @@
 ---
+id: 6
 title: Campus Connection
 subtitle: Wireframe + Webdesign
 layout: default
 link-name:
-modal-id: 6
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png

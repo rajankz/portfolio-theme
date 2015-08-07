@@ -1,0 +1,16 @@
+---
+id: 4
+title: AV System Redesign
+subtitle: Website Design
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: treehouse.png
+thumbnail: av_system-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: This project was to redesign the classroom Audio Video system to help instructors better use the system.
+
+---

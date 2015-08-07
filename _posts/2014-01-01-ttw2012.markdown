@@ -1,11 +1,12 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+id: 3
+title: EventGraph
+subtitle: Research Project
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+modal-id: 3
+date: 2014-07-16
+img: golden.png
+thumbnail: ttw2012-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
