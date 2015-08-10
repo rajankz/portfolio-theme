@@ -14,8 +14,12 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" />
+                            <p class="modal-description">{{ post.description }}</p>
+                            <p>{% if post.pdf %}
+                                <a href="{{ post.pdf }}">Download Mockup</a>
+                            {% endif %}</p>
+<!--
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
@@ -30,9 +34,13 @@
                                     </strong>
                                 </li>
                             </ul>
-                            {{post.content}}
+-->
+                            <div class="modal-sections">
+                                {{post.content}}
+                            </div>
                             <p></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <p></p>
                         </div>
                     </div>
                 </div>

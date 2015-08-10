@@ -82,6 +82,11 @@ h6 {
     background-color: rgba(250, 250, 250, 0.10);
 }
 
+.btn-primary .btn-inverted {
+    border-color: #{{ site.color.dark-text }};
+    color: #{{ site.color.dark-text }};
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -308,7 +313,7 @@ header .intro-text .intro-lead-in {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 /*    font-size: 22px;*/
     font-size: 14px;
-    font-style: italic;
+/*    font-style: italic;*/
     line-height: 22px;
 }
 
@@ -324,7 +329,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+/*        padding-top: 300px;*/
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -335,7 +341,7 @@ header .intro-text .intro-heading {
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 /*        font-size: 40px;*/
         font-size: 25px;
-        font-style: italic;
+/*        font-style: italic;*/
         line-height: 40px;
         letter-spacing: 1px;
         font-weight: 100;
@@ -827,7 +833,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+/*    padding: 100px 0;*/
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -835,6 +841,12 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.portfolio-modal .modal-sections {
+    padding-top: 25px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -863,7 +875,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .close-modal {
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 25px;
     width: 75px;

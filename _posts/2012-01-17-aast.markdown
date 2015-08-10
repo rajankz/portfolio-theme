@@ -1,0 +1,50 @@
+---
+id: 2
+title: AAST Website
+subtitle: Website (Design + Code)
+layout: default
+modal-id: 2
+link: aast-website
+date: 2012-01-17
+img: aast/cover.jpg
+thumbnail: aast/thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: AAST Website was designed and coded from scratch for the Asian American Studies program under the Department of Undergraduate Studies at University of Maryland.
+
+---
+
+<div>
+    <h4>Project</h4>
+    <p>The project was to re-design the department website for Asian American Studies Program(AAST) at University of Maryland(UMD). The site was developed by external consultants and basically had two major issues:
+        <ul>
+            <li>The site did not cater to the primary users(students, faculty, office) of the site</li>
+            <li>The site was built using drag-n-drop tools like Dreamweaver that had added a lot of extra code making the site literally un-maintainable for the office users.</li>
+        </ul>
+    </p>
+    
+    <h4>My Role</h4>
+    <p>As a Graduate Assistant(Web Developer) with Department of Undergraduate Studies(UGST), my primary task was to re-design the site to meet the users needs and also make it maintainable, so that the office users could easily update the site as and when needed.</p>
+    
+    <h4>Design</h4>
+    <p>For the re-design project, I started off with talking to stakeholder that included students, office staff and faculty members. The primary goal was to show updates on the homepage and to make it easy for the office staff to add/update news items. After compiling the interview responses, a common pattern emerged and I quickly recognized that the primary users are the students and office staff. And all of them had issues with finding information on the site. I tweaked the card-sorting methodology to suite the office setting and created an information hierarchy with the help of students and office staff.
+I also added new categories that the students were mainly looking for like Jobs, Scholarships etc. 
+The office staff wanted to have a easy interface from where they could add new content to site like blog posts, reviews etc and also update scholarship information, course catalog, job posting etc. After an iteration of creating a Php based admin console, the department announced that due to budget cuts, no new Graduate Assistants would be supported and maintaining the admin console could become tough for office staff who had no programming experience and so Wordpress was chosen to replace the console created by me and I ported the design as a theme for Wordpress. The visual elements like color, typography etc are based on University standards.
+    </p>
+    
+    <h4>Result</h4>
+    <p>The idea to port the design as Wordpress theme with the new information hierarchy which included missing content and options for office staff to easily add/remove content turned out to be a big hit. After almost four years of launching the site(2011-2012), the site is still operational and the design(information hierarchy) is helping students find what they need. Some of the final screens are:
+    <ul>
+            <li>Homepage
+                <img src="img/portfolio/aast/home.png" class="img-responsive img-centered" alt="AAST Homepage" title="AAST Homepage" /></li>
+            <li>Jobs Page
+                <img src="img/portfolio/aast/jobs.png" class="img-responsive img-centered" alt="AAST Jobs page" title="AAST Jobs page" /></li>
+                <li>Resources Page
+                <img src="img/portfolio/aast/resources.png" class="img-responsive img-centered" alt="AAST Resources page" title="AAST Resources page" /></li>
+                <li>Scholarship Page
+                <img src="img/portfolio/aast/scholarship.png" class="img-responsive img-centered" alt="AAST Scholarship page" title="AAST Scholarship page" /></li>
+        </ul>
+    </p>
+</div>

@@ -1,0 +1,48 @@
+---
+id: 1
+title: UMD Answers
+subtitle: Wireframe + Mockups
+layout: default
+modal-id: 1
+link: umd-answers
+date: 2011-11-17
+img: umd-answers/cover.jpg
+thumbnail: umd-answers/thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+pdf: https://dl.dropboxusercontent.com/u/45031558/portfolio/UMDAnswers-comps-v1.pdf
+description: UMD Answers, a team project, was based on my previous project on 'Campus Connection', to provide students, especially first gen college students, with resources to succeed in academics.
+
+---
+<div>
+    <h4>Challenge</h4>
+    <p>The project was to create a technical solution that could help first generation college students succeed in academics. My team decided to create a QnA forum for students based on my another project 'Campus Connection'.</p>
+    
+    <h4>My Role</h4>
+    <p>The team consisted of four memebers. We employed the concept of Parallel Design and later iterated over the good parts, improving sections from various feedback we got during several User Interviews that I and one another team member conducted.</p>
+    
+    <h4>Design</h4>
+    <p>We started with an assumption that most first-gen college students are probably not from well to do family and are probably are under economic crunch and so we created a web-based solution and planned to interview few students to test the interface. The screens developed were purely from a web point of view.
+        <ul>
+            <li>View All Questions
+                <img src="img/portfolio/umd-answers/iter1a.jpg" class="img-responsive img-centered" alt="UMD Answers Iteration 1A" title="UMD Answers Iteration 1A" /></li>
+            <li>Answer a Question
+                <img src="img/portfolio/umd-answers/iter1b.jpg" class="img-responsive img-centered" alt="UMD Answers Iteration 1B" title="UMD Answers Iteration 1B" /></li>
+        </ul>
+        
+    On performing some User Interviews we quickly realized how wrong we were about the internet usage pattern of the first gen students. All of them had smartphones (and most had premium ones like iPhone) and access the net using their phone. They liked the idea of a QnA forum with Annonymous posts, but wanted to access it from their phone.
+    This gave us the idea to design a Mobile-First responsive website instead. As the questions were more administrative in nature, we proposed having an admin who can overlook the questions and answer/tag appropriately. The students prefrred to get notifications either via Twitter or Text messages. After incorporating the user's needs and suugestions we iterated over the design again and came up with the following:
+        <ul>
+            <li>UMD Answers Homepage
+            <img src="img/portfolio/umd-answers/home.jpg" class="img-responsive img-centered" alt="UMD Answers Homepage" title="UMD Answers Homepage" /></li>
+            <li>Ask a Question
+            <img src="img/portfolio/umd-answers/ask-a-question.jpg" class="img-responsive img-centered" alt="UMD Answers Recently Posted" title="UMD Answers Recently Posted" /></li>
+            <li>Question Posted
+            <img src="img/portfolio/umd-answers/question-posted.jpg" class="img-responsive img-centered" alt="UMD Answers Question Posted" title="UMD Answers Question Posted" /></li>
+            <li>Mobile - Multiple Answers
+            <img src="img/portfolio/umd-answers/mobile-answers.jpg" class="img-responsive img-centered" alt="UMD Answers Mobile View" title="UMD Answers Mobile View" /></li>
+        </ul>
+    </p>
+</div>

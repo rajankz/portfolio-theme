@@ -1,0 +1,55 @@
+---
+id: 3
+title: AV System Redesign
+subtitle: Website Design
+layout: default
+modal-id: 3
+link: av-system
+date: 2012-04-01
+img: av-system/cover.jpg
+thumbnail: av-system/thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: This project was to redesign the classroom Audio Video system to help instructors better use the system.
+
+---
+<div>
+    <h4>Project</h4>
+    <p>The classroom Audio Video setup system is used by in-house and visiting faculty members of any academic institution. The one used at University of Maryland had an interface that was non-intuitive to the user. The project to redesign the interface was taken up as a final project for the class on Human Factors at UMD.</p>
+    
+    <h4>My Role</h4>
+    <p>The project included a two member team. Both of us were responsible for brainstorming ideas and laying it out. I took the lead on the design aspect while we split the task of interviewing multiple faculty members.</p>
+    
+    <h4>Process</h4>
+    <p>The idea to redesign the system sparked from observing many users struggling with the system across classes. While a small part could be attributed to bad or outdated technology, the majority of the issues laid in the design aspect like the choice of words, placement of controls and default actions.</p>
+    <p>To get more information on the system issues, we decided the following methodologies:
+    <ul>
+        <li><strong>Contextual Inquiry:</strong> As students we were observing the users use the system in their own environment and this was a natural choice to include.</li>
+        <li><strong>Interviews:</strong> To get an in-depth information on the system we decided to interview both the faculty members and IT personal responsible for purchasing and administering the system. We were able to obtain a test-id to try out the system as well.</li>
+    </ul>
+    We used the results from our observation and interviews to identify key pain points and issues with the system which we tried to mitigate in our proposal. We conducted user interviews again with the proposed design to validate and iterate over the proposal.
+    </p>
+    
+    <h4>Design</h4>
+    <p><ul>
+    <li>For our redesign, we made changes mainly to the taxonomy of the actions that were being used. We realized from our interviews that the words used in the application were more technical and not in layman’s word.</li>
+<li>Apart from updating the taxonomy, we also worked on clarifying ambiguous actions. Certain actions like Blank/Unblank used a single button with just the selected/unselected status, without telling if selecting the button causes the ‘blank’ action or the ‘unblank’   action.</li>
+<li>Another goal was to simply the UI by removing old and outdated elements that are not being used anymore. This would make the UI less daunting to the user.</li>
+<li>Yet another goal was to give proper feedback of the status of the system, which was a big miss and was the reason for the disconnect between the users and the system.</li>
+    </ul>
+    </p>
+    
+    <h4>Screens</h4>
+    <p>
+    <ul>
+            <li>Current AV System
+                <img src="img/portfolio/av-system/original.png" class="img-responsive img-centered" alt="Current AV System" title="Current AV System" /></li>
+            <li>Redesigned Home Screen
+                <img src="img/portfolio/av-system/home.jpg" class="img-responsive img-centered" alt="Redesigned Home Screen" title="Redesigned Home Screen" /></li>
+                <li>Shutdown 
+                <img src="img/portfolio/av-system/shutdown.jpg" class="img-responsive img-centered" alt="Automated Shutdown" title="Automated Shutdown" /></li>
+        </ul>
+    </p>
+</div>
